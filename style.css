@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background: #F9FAFE;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    position: relative;
+    background: linear-gradient(to right , #3E318A 30% , #7E73C2);
+    border-radius: 20px;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 100px 400px;
+    grid-template-columns: 900px;
+}
+.container h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    word-spacing: 5px;
+}
+.box{
+    border-radius: 20px;
+    background: #E9E9E9;
+}
+.box h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: #3E318A;
+}
+.parts{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-weight: 900;
+}
+.free-parts{
+    width: 200px;
+    height: 500px;
+    background: linear-gradient(to bottom , #3E318A 50% , #7E73C2);
+    border-radius: 10px;
+    margin-top: -195px;
+    color: #fff;
+}
+.in-free-parts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 230px;
+}
+.in-free-parts h4{
+    font-size: 20px;
+}
+.in-free-parts span{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.in-free-parts button{
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 90px;
+    border: solid 2px #3E318A;
+    font-weight: 900;
+    font-size: 18px;
+}
+.in-free-parts a{
+    text-decoration: none;
+}
+.in-free-parts li{
+    margin: 1px;
+}
+.in-parts{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    border: solid 2px #3E318A;
+    list-style: none;
+}
+.in-in-parts{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.in-in-parts li{
+    margin: 1px;
+}
+.in-parts span{
+    color: #3E318A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.in-in-parts{
+    margin-top: 30px;
+}
+.in-parts h4{
+    font-size: 20px;
+}
+.in-in-parts button{
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top:50px;
+    border: solid 2px #3E318A;
+    font-weight: 900;
+    font-size: 18px;
+}
+.in-in-parts a{
+    text-decoration: none;
+}
